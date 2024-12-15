@@ -18,4 +18,4 @@ axi master and slave uvm test bench  :
        * it is python script file which automatically detects *.log files and detects text PASS && FAIL  
        and gives summary as PASS or FAIL to each test.
 ## Simulation
-   (https://drive.google.com/file/d/1Ap8rDO57e1Bpy2rP_fp6H7RMFxsRCfBm/view?usp=drive_link)
+  [axi_uvm_simulation_video] (https://drive.google.com/file/d/1Ap8rDO57e1Bpy2rP_fp6H7RMFxsRCfBm/view?usp=drive_link)
