@@ -1,0 +1,8 @@
+`include "axi_sequence_base.sv"
+`include "axi_sequence_fixied.sv"
+`include "axi_sequence_increment.sv"
+`include "axi_sequence_wrapping.sv"
+`include "axi_sequence_incr_4tr.sv"
+`include "axi_sequence_wrp_4tr.sv"
+`include "axi_sequence_unalined_tr.sv"
+`include "axi_sequence_slave_error.sv"

@@ -1,0 +1,10 @@
+`include "axi_sequencer.sv"
+`include "axi_driver.sv"
+`include "axi_bfm_monitor.sv"
+`include "axi_act_agent.sv"
+`include "axi_dut_monitor.sv"
+`include "axi_pas_agent.sv"
+`include "axi_scoreboard.sv"
+`include "../coverage/axi_subscriber.sv"
+`include "axi_env.sv"
+
