@@ -37,7 +37,7 @@ class axi_bfm_monitor extends uvm_monitor;
 
      
     forever begin
-      @(in_bfm_mon.aclk,in_bfm_mon.datain,in_bfm_mon.dataout);
+      @(in_bfm_mon.datain,in_bfm_mon.dataout);
          seqt_bfm_monitor.aclk=in_bfm_mon.aclk;
          seqt_bfm_monitor.resetn=in_bfm_mon.resetn;
          seqt_bfm_monitor.transfer=in_bfm_mon.transfer;
