@@ -11,7 +11,7 @@ axi master and slave uvm test bench  :
     * 8 testcases
     * 8 sequence
       * as  base,icrement,wrapping,fixied,increment 4 transfers ,wrapping 4 transfers, unalined ,slave_error.
-## makefile && generate_summary.pr file:
+## makefile && generate_summary.py file:
    -> makefile :
       * to test regress ,generate summary as pass or fail
    -> generate_summary.py :
