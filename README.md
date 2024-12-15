@@ -15,5 +15,5 @@ axi master and slave uvm test bench  :
    -> makefile :
       * to test regress ,generate summary as pass or fail
    -> generate_summary.py :
-       * it is python script file which automatically detects .log files and detects text PASS && FAIL  
+       * it is python script file which automatically detects *.log files and detects text PASS && FAIL  
        and gives summary as PASS or FAIL to each test.
