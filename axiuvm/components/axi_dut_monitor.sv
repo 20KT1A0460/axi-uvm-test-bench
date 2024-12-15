@@ -29,7 +29,7 @@ class axi_dut_monitor extends uvm_monitor;
     task run_phase(uvm_phase phase);
 
          forever begin
-          @(in_dut_mon.aclk,in_dut_mon.datain,in_dut_mon.dataout);
+          @(in_dut_mon.datain,in_dut_mon.dataout);
          seqt_dut_monitor.aclk=in_dut_mon.aclk;
          seqt_dut_monitor.resetn=in_dut_mon.resetn;
          seqt_dut_monitor.transfer=in_dut_mon.transfer;
