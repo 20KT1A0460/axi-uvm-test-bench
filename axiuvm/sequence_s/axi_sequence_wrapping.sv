@@ -1,5 +1,5 @@
 class axi_sequence_wrapping extends axi_sequence_base;
-  `uvm_object_utils(axi_sequence_base)
+  `uvm_object_utils(axi_sequence_wrapping)
     function new(string en="");
        super.new(en);
     endfunction
